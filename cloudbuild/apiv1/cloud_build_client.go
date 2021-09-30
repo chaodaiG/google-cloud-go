@@ -25,13 +25,14 @@ import (
 
 	"cloud.google.com/go/longrunning"
 	lroauto "cloud.google.com/go/longrunning/autogen"
+	cloudbuildpb "github.com/chaodaiG/go-genproto/googleapis/devtools/cloudbuild/v1"
+	longrunningpb "github.com/chaodaiG/go-genproto/googleapis/longrunning"
 	"github.com/golang/protobuf/proto"
 	gax "github.com/googleapis/gax-go/v2"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 	gtransport "google.golang.org/api/transport/grpc"
-	cloudbuildpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

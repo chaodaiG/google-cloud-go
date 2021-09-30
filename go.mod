@@ -1,6 +1,11 @@
-module cloud.google.com/go
+module github.com/chaodaiG/google-cloud-go
 
 go 1.11
+
+replace (
+	"cloud.google.com/go" => "github.com/chaodaiG/google-cloud-go" v0.97.1-0.20210930180026-1622fd81dad3
+	"google.golang.org/genproto/googleapis/longrunning" => "github.com/chaodaiG/go-genproto/googleapis/longrunning" v0.0.0-20210930180538-ed27b2abd13b
+)
 
 require (
 	cloud.google.com/go/storage v1.10.0

@@ -1,4 +1,4 @@
-module cloud.google.com/go/cloudbuild
+module github.com/chaodaiG/google-cloud-go/cloudbuild
 
 go 1.16
 
